@@ -2,22 +2,24 @@
 body {
     margin: 0;
     font-family: Georgia, serif;
-    background-color: #fff;
+    background-color:  #313131;
 }
 
 #maindiv {
+
     margin-right: auto;
     margin-left: auto;
     padding-left: 0;
     padding-right: 0;
-    border-left: 20px solid #2D2D2D;
-    border-right: 20px solid #2D2D2D;
+    border-left: 20px solid #313131;
+    border-right: 20px solid #313131;
 }
 
 .container-fluid  {
+    max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
-    max-width: 1000px;
+    /*max-width: 1200px;*/
     background-color: #fff;
 }
 
@@ -88,7 +90,7 @@ ul.nav a:hover { color: #fff !important;
     color: #9CC448;
     background-color: #9CC448;
     height: 1px;
-    max-width: 920px;
+    max-width: 1120px;
     margin-top: 15px;
 }
 
@@ -108,10 +110,17 @@ ul.nav a:hover { color: #fff !important;
     border-radius: 10px;
 }
 
+
+
 .box {
     padding-left: 22px;
     padding-top: 8px;
     padding-bottom: 15px;
+   /* padding-right: 70px;*/
+}
+
+#aboutus .box {
+    padding-right: 70px;
 }
 
 .box h4 {
@@ -163,7 +172,7 @@ ul.nav a:hover { color: #fff !important;
     float: right;
     padding-right: 1px;
     color: #9CC448;
-    margin-top: -7px;
+    margin-top: -10px;
 }
 
 #clients img{
@@ -203,7 +212,7 @@ ul.nav a:hover { color: #fff !important;
 
 #clients a {
     float: right;
-    margin-top: -20px;
+    margin-top: -15px;
     color: #9CC448;
     /*padding-bottom: 35px;*/
 }
@@ -214,7 +223,7 @@ ul.nav a:hover { color: #fff !important;
 }
 
 #contact {
-    background-color:  #2D2D2D;
+    background-color:  #313131;
     padding-left: 0;
     padding-right: 0;
 }
@@ -237,6 +246,16 @@ ul.nav a:hover { color: #fff !important;
 #contact p {
     font-size: 90%;
     padding-left: 15px;
+    color: #9E9E9E!important;
+    line-height: 1.6;
+}
+
+#contact h5 {
+   color: #9E9E9E!important;
+}
+
+.posted {
+    color: #9E9E9E!important;
 }
 
 #contact hr {
@@ -314,6 +333,7 @@ a.rssfeed:hover {
 #blog p {
     padding-top: 10px;
     text-align: justify ;
+    color: #777;
 }
 
 #blog a {
@@ -321,8 +341,22 @@ a.rssfeed:hover {
     float: right;
     font-size: 1.2rem;
     margin-right: -2px;
-    margin-top: -8px;
+  /*  margin-top: -8px;*/
         }
+
+
+
+
+input[type="text"], textarea {
+
+    resize: none;
+
+}
+
+#formdiv .form-control {
+    border: none!important;
+    background-color : #383838;
+}
 
 #formdiv .btn {
     background-color: #9CC448;
@@ -354,7 +388,7 @@ a.rssfeed:hover {
 }
 
 .footer p {
-    color: #ffffff;
+    color: #777;
     margin-bottom: 0;
 }
 
