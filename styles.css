@@ -69,19 +69,34 @@ ul.nav a:hover { color: #fff !important;
 }
 
 .carousel-caption {
- max-width: 350px;
+ width: 350px;
     padding-bottom: 0;
-    margin: 0 auto;
+    /*margin: 0 auto;
+    margin-right: -150px;*/
+    margin-left: auto;
+    right: 8%;
+    left: 20%;
+
 }
 
 .carousel-caption h3 {
     background-color: #9CC448;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
 .carousel-caption p {
     background-color: #fff;
     color: #777;
     text-shadow: none;
+    text-align: left;
+    font-size: 13px;
+    padding: 10px;
+    line-height: 1.2;
+
 }
 
 
@@ -117,23 +132,39 @@ ul.nav a:hover { color: #fff !important;
     padding-top: 8px;
     padding-bottom: 15px;
    /* padding-right: 70px;*/
+<<<<<<< HEAD
+=======
+}
+
+#aboutus .box {
+    padding-right: 70px;
+>>>>>>> e1a83a964a6b575b4267157ce89a19deb96195fc
 }
 
 #aboutus .box {
     padding-right: 70px;
 }
 
-.box h4 {
-    font-size: 150%;
-    letter-spacing: 0.05rem;
+#aboutus .box h4 {
+    font-size: 22px;
+
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+
+
     padding-top: 1px;
     padding-bottom: 15px;
     margin-left: -1px;
 }
 
 #aboutUs p {
-    line-height: 1.3;
+
     margin-bottom: 18px;
+    font-size: 13px;
+    color: rgb(153, 153, 153);
+    line-height: 1.4;
+    text-align: left;
+    margin-right: 15px;
 }
 
 #aboutUs img{
@@ -147,7 +178,11 @@ ul.nav a:hover { color: #fff !important;
 #aboutUs a {
     float:right;
     padding-right: 2px;
-    color: #9CC448;
+
+    font-size: 13px;
+
+    color: rgb(167, 195, 83);
+    line-height: 1;
 }
 
 
@@ -160,19 +195,34 @@ ul.nav a:hover { color: #fff !important;
 
 #services h5{
     margin-bottom: 16px;
-    font-size: 1.7rem;
+
+    font-size: 14px;
+
+    color: rgb(135, 135, 135);
+    line-height: 1.2;
 }
 
 #services p{
-    line-height: 1.3;
+    font-size: 13px;
     margin-bottom: 16px;
+    color: rgb(153, 153, 153);
+    line-height: 1.4;
 }
 
 #services a {
     float: right;
     padding-right: 1px;
+<<<<<<< HEAD
+
+    margin-top: -5px;
+    font-size: 13px;
+
+    color: rgb(167, 195, 83);
+    line-height: 1;
+=======
     color: #9CC448;
     margin-top: -10px;
+>>>>>>> e1a83a964a6b575b4267157ce89a19deb96195fc
 }
 
 #clients img{
@@ -184,11 +234,18 @@ ul.nav a:hover { color: #fff !important;
 
 #clients > div:nth-child(2) > h5 {
     margin-top: 13px;
-    letter-spacing: 1px;
+    font-size: 16px;
+
+    color: rgb(152, 152, 152);
+    line-height: 1.2;
 }
 
 #clients > div:nth-child(3) > h5 {
     letter-spacing: 1px;
+    font-size: 16px;
+
+    color: rgb(152, 152, 152);
+    line-height: 1.2;
 }
 
 
@@ -198,8 +255,11 @@ ul.nav a:hover { color: #fff !important;
 }
 
 #clients p {
+    font-size: 13px;
+    color: rgb(153, 153, 153);
+    line-height: 1.4;
     margin-top: -18px;
-    line-height: 1.3;
+    margin-right: -50px;
    padding-top: 25px;
     padding-bottom: 10px;
 }
@@ -213,7 +273,15 @@ ul.nav a:hover { color: #fff !important;
 #clients a {
     float: right;
     margin-top: -15px;
+<<<<<<< HEAD
+    margin-right: -50px;
+    font-size: 13px;
+
+    color: rgb(167, 195, 83);
+    line-height: 1;
+=======
     color: #9CC448;
+>>>>>>> e1a83a964a6b575b4267157ce89a19deb96195fc
     /*padding-bottom: 35px;*/
 }
 
@@ -233,21 +301,37 @@ ul.nav a:hover { color: #fff !important;
     color: #777;
     background-color: #777;
     height: 1px;
+
+
+
 }
 
 #contact h4 {
-    color: #ffffff;
-    font-size: 110%;
+
+
     padding-top: 19px;
-    margin-bottom: -20px;
+    margin-bottom: 10px;
     padding-left: 15px;
+    font-size: 16px;
+
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
 }
 
 #contact p {
-    font-size: 90%;
+
     padding-left: 15px;
+<<<<<<< HEAD
+
+    line-height: 1.6;
+    font-size: 12px;
+
+    color: rgb(153, 153, 153)!important;
+
+=======
     color: #9E9E9E!important;
     line-height: 1.6;
+>>>>>>> e1a83a964a6b575b4267157ce89a19deb96195fc
 }
 
 #contact h5 {
@@ -268,9 +352,14 @@ ul.nav a:hover { color: #fff !important;
 
 #contact .socials a{
     background-image: none;
-    color: #9CC448;
+
     margin-top: -10px;
     margin-left: 14px;
+
+    font-size: 12px;
+
+    color: rgb(167, 195, 83);
+    line-height: 1.2;
 }
 
 div.col-sm-3:nth-child(1) > p:nth-child(10) > a:nth-child(1) {
@@ -319,30 +408,69 @@ a.rssfeed:hover {
 }
 
 #blog h5{
-    color: #fff;
+
     margin-bottom: 0;
     padding-left: 15px;
+    font-size: 13px;
+
+    color: rgb(153, 153, 153);
+    line-height: 1.2;
+
 }
 
 #blog .posted {
-    font-size: 1.1rem;
-    color: #fff;
+
     padding-left: 15px;
+    font-size: 11px;
+
+    color: rgb(153, 153, 153);
+    line-height: 1.2;
 }
 
 #blog p {
     padding-top: 10px;
     text-align: justify ;
+<<<<<<< HEAD
+
+    font-size: 12px;
+
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+=======
     color: #777;
+>>>>>>> e1a83a964a6b575b4267157ce89a19deb96195fc
 }
 
 #blog a {
-    color: #9CC448;
+
     float: right;
-    font-size: 1.2rem;
+
     margin-right: -2px;
+<<<<<<< HEAD
+
+    font-size: 12px;
+
+    color: rgb(167, 195, 83);
+    line-height: 1.2;
+}
+
+
+
+
+input[type="text"], textarea {
+
+    resize: none;
+
+}
+
+#formdiv .form-control {
+    border: none!important;
+    background-color : #383838;
+}
+=======
   /*  margin-top: -8px;*/
         }
+>>>>>>> e1a83a964a6b575b4267157ce89a19deb96195fc
 
 
 
@@ -360,8 +488,12 @@ input[type="text"], textarea {
 
 #formdiv .btn {
     background-color: #9CC448;
-    color: black;
+
     border-color: black;
+    font-size: 13px;
+
+    color: rgb(49, 49, 49);
+    line-height: 1.583;
 }
 
 #formdiv .btn:hover {
@@ -376,6 +508,13 @@ input[type="text"], textarea {
     padding-left: 15px;
 }
 
+.form-control {
+    font-size: 13px;
+
+    color: rgb(152, 152, 152);
+    line-height: 1.583;
+}
+
 #lasthr {
     margin-top: 0;
     margin-bottom: 15px;
@@ -383,8 +522,12 @@ input[type="text"], textarea {
     margin-left: 0!important;
 }
 
-#lastp {
+.lastp {
     padding-left: 0!important;
+    font-size: 12px;
+
+    color: rgb(153, 153, 153);
+    line-height: 1;
 }
 
 .footer p {
@@ -396,4 +539,26 @@ a:hover {
     cursor: pointer;
 }
 
+.carousel-control {
+    /* color: #9CC448; */
+ /*   background-image: none!important;*/
+    /*background-image: url("/img/larr.png")!important;*/
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    margin-left: 40px;
+    /*color: red;
+    background-color: darkblue;
+    border-radius: 90%;
+    border: 1px solid black;
+*/
 
+}
+
+#myCarousel img {
+    vertical-align: middle;
+    margin-top: -70px;
+}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev {
+    margin-right: 60px;
+}
